@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ravishankarsingh/CODING/DSA_Practice/stack/example/stackArray'
+relocations:
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: __ZN5StackC1Ei, symObjAddr: 0x0, symBinAddr: 0x100003B18, symSize: 0x6C }
+  - { offsetInCU: 0x3206, offset: 0x3206, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xEC98, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x3638, offset: 0x3638, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, symObjAddr: 0x2F2, symBinAddr: 0x100003E92, symSize: 0x0 }
+  - { offsetInCU: 0x3652, offset: 0x3652, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedImEE, symObjAddr: 0x2F3, symBinAddr: 0x100003E93, symSize: 0x0 }
+  - { offsetInCU: 0x366C, offset: 0x366C, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, symObjAddr: 0x2F4, symBinAddr: 0x100003E94, symSize: 0x0 }
+  - { offsetInCU: 0x3698, offset: 0x3698, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_stackArray.cpp, symObjAddr: 0x2B4, symBinAddr: 0x100003DCC, symSize: 0x14 }
+  - { offsetInCU: 0x36BE, offset: 0x36BE, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x278, symBinAddr: 0x100003D90, symSize: 0x3C }
+  - { offsetInCU: 0x36C6, offset: 0x36C6, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_stackArray.cpp, symObjAddr: 0x2B4, symBinAddr: 0x100003DCC, symSize: 0x14 }
+  - { offsetInCU: 0x36BA, offset: 0x36BA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x238, symBinAddr: 0x100003D50, symSize: 0x40 }
+  - { offsetInCU: 0x36C2, offset: 0x36C2, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x278, symBinAddr: 0x100003D90, symSize: 0x3C }
+  - { offsetInCU: 0x36EA, offset: 0x36EA, size: 0x8, addend: 0x0, symName: __ZN5Stack5printEv, symObjAddr: 0x194, symBinAddr: 0x100003CAC, symSize: 0xA4 }
+  - { offsetInCU: 0x36F2, offset: 0x36F2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x238, symBinAddr: 0x100003D50, symSize: 0x40 }
+  - { offsetInCU: 0x373E, offset: 0x373E, size: 0x8, addend: 0x0, symName: __ZN5Stack5push2Ei, symObjAddr: 0x100, symBinAddr: 0x100003C18, symSize: 0x94 }
+  - { offsetInCU: 0x3746, offset: 0x3746, size: 0x8, addend: 0x0, symName: __ZN5Stack5printEv, symObjAddr: 0x194, symBinAddr: 0x100003CAC, symSize: 0xA4 }
+  - { offsetInCU: 0x3780, offset: 0x3780, size: 0x8, addend: 0x0, symName: __ZN5Stack5push1Ei, symObjAddr: 0x6C, symBinAddr: 0x100003B84, symSize: 0x94 }
+  - { offsetInCU: 0x3788, offset: 0x3788, size: 0x8, addend: 0x0, symName: __ZN5Stack5push2Ei, symObjAddr: 0x100, symBinAddr: 0x100003C18, symSize: 0x94 }
+  - { offsetInCU: 0x37F9, offset: 0x37F9, size: 0x8, addend: 0x0, symName: __ZN5StackC1Ei, symObjAddr: 0x0, symBinAddr: 0x100003B18, symSize: 0x6C }
+  - { offsetInCU: 0x3801, offset: 0x3801, size: 0x8, addend: 0x0, symName: __ZN5Stack5push1Ei, symObjAddr: 0x6C, symBinAddr: 0x100003B84, symSize: 0x94 }
+...
