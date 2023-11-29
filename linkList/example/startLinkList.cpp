@@ -58,6 +58,11 @@ void insertAtHead(Node *&head, Node *&tail, int data)
     }
 }
 
+/*
+=> Reverse a link list ,with recursion
+
+*/
+
 int insertAtTail(Node *&head, Node *&tail, int data)
 {
     cout << "Tail  is out of => " << endl;
@@ -90,15 +95,40 @@ int findLength(Node *&head)
     return len;
 }
 
-int insertAtPosition(int data, int position, Node *&head, Node *&tail)
+// Insert using recursion => you need head
+void insertRec(Node *&head, Node *&tail, int data, int position)
 {
+    // Once you reach to the position
+    Node *tempHead = head;
+    Node *tempTail = tail;
+
+    if (position == 0)
+    {
+        Node *NextNode = tempHead->next;
+        Node *intNode = new Node(data);
+        tempHead->next = intNode;
+        intNode->next = NextNode;
+        return;
+    }
+    else
+    {
+
+        insertRec(tempHead->next, tempTail, data, position - 1);
+    }
+}
+
+/*
+'
+
+{
+int insertAtPosition(int data, int position, Node *&head, Node *&tail)
     int len = findLength(head);
 
     // If it is starting postion
     if (position == 1)
     {
         insertAtHead(head, tail, data);
-        return;
+        return 1;
     }
     // If it is last position then ,you can do that
     else if (position > len)
@@ -128,6 +158,7 @@ int insertAtPosition(int data, int position, Node *&head, Node *&tail)
         prev->next = newNode;
     }
 }
+*/
 
 int main()
 {

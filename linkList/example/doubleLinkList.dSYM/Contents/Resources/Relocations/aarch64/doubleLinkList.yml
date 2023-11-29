@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ravishankarsingh/CODING/DSA_Practice/linkList/example/doubleLinkList'
+relocations:
+  - { offsetInCU: 0xEC, offset: 0xEC, size: 0x8, addend: 0x0, symName: __ZN4NodeC1Ei, symObjAddr: 0x0, symBinAddr: 0x100003B94, symSize: 0x3C }
+  - { offsetInCU: 0x3206, offset: 0x3206, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xEBB0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x359D, offset: 0x359D, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, symObjAddr: 0x2AB, symBinAddr: 0x100003E93, symSize: 0x0 }
+  - { offsetInCU: 0x35B7, offset: 0x35B7, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedImEE, symObjAddr: 0x2AC, symBinAddr: 0x100003E94, symSize: 0x0 }
+  - { offsetInCU: 0x35D1, offset: 0x35D1, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, symObjAddr: 0x2AD, symBinAddr: 0x100003E95, symSize: 0x0 }
+  - { offsetInCU: 0x3601, offset: 0x3601, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_doubleLinkList.cpp, symObjAddr: 0x290, symBinAddr: 0x100003E24, symSize: 0x14 }
+  - { offsetInCU: 0x3623, offset: 0x3623, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x254, symBinAddr: 0x100003DE8, symSize: 0x3C }
+  - { offsetInCU: 0x362B, offset: 0x362B, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_doubleLinkList.cpp, symObjAddr: 0x290, symBinAddr: 0x100003E24, symSize: 0x14 }
+  - { offsetInCU: 0x361F, offset: 0x361F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1EC, symBinAddr: 0x100003D80, symSize: 0x68 }
+  - { offsetInCU: 0x3627, offset: 0x3627, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x254, symBinAddr: 0x100003DE8, symSize: 0x3C }
+  - { offsetInCU: 0x3677, offset: 0x3677, size: 0x8, addend: 0x0, symName: __Z5printP4Node, symObjAddr: 0x170, symBinAddr: 0x100003D04, symSize: 0x7C }
+  - { offsetInCU: 0x367F, offset: 0x367F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1EC, symBinAddr: 0x100003D80, symSize: 0x68 }
+  - { offsetInCU: 0x36D1, offset: 0x36D1, size: 0x8, addend: 0x0, symName: __Z11reverseListRP4Node, symObjAddr: 0xD8, symBinAddr: 0x100003C6C, symSize: 0x98 }
+  - { offsetInCU: 0x36D9, offset: 0x36D9, size: 0x8, addend: 0x0, symName: __Z5printP4Node, symObjAddr: 0x170, symBinAddr: 0x100003D04, symSize: 0x7C }
+  - { offsetInCU: 0x372D, offset: 0x372D, size: 0x8, addend: 0x0, symName: __Z12insertAtHeadRP4NodeS1_i, symObjAddr: 0x3C, symBinAddr: 0x100003BD0, symSize: 0x9C }
+  - { offsetInCU: 0x3735, offset: 0x3735, size: 0x8, addend: 0x0, symName: __Z11reverseListRP4Node, symObjAddr: 0xD8, symBinAddr: 0x100003C6C, symSize: 0x98 }
+  - { offsetInCU: 0x37A8, offset: 0x37A8, size: 0x8, addend: 0x0, symName: __ZN4NodeC1Ei, symObjAddr: 0x0, symBinAddr: 0x100003B94, symSize: 0x3C }
+  - { offsetInCU: 0x37B0, offset: 0x37B0, size: 0x8, addend: 0x0, symName: __Z12insertAtHeadRP4NodeS1_i, symObjAddr: 0x3C, symBinAddr: 0x100003BD0, symSize: 0x9C }
+...
