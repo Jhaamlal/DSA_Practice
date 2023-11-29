@@ -1,4 +1,9 @@
 ## OPPS CONCEPT :
+[first Notes](https://github.com/Jhaamlal/DSA-SUPREME-2-0-NOTES/blob/master/DSA%20SUPREME%202.0%20NOTES/25.%20CLASS%20NOTES/OOPS%20CLASS%2001%20NOTES.pdf)
+
+[second Nots](https://github.com/Jhaamlal/DSA-SUPREME-2-0-NOTES/blob/master/DSA%20SUPREME%202.0%20NOTES/26.%20CLASS%20NOTES/OOPS%20CLASS%2002%20NOTES.pdf)
+
+[Third note](ttps://github.com/Jhaamlal/DSA-SUPREME-2-0-NOTES/blob/master/DSA%20SUPREME%202.0%20NOTES/27.%20CLASS%20NOTES/OOPS%20CLASS%2003%20NOTES.pdf)
 
 > #### What is local and globel variable ?
 Global variable is what ,that is accessible in the whole ,function and class    and         the local variable are only access inside the single block. 
@@ -36,7 +41,7 @@ Heap Memory :
     1) Constructor is special method that is initialise a newly created object 
     2) Constructor is automatically called when new object is formed .
     3) Constructor has same name what class has ,and has no return type .
-    4) Constructor will always be public 
+    4) Constructor will always be public . But can also be private,to use as private you need to be have friend keyword.
     5) Mainly 3 type of Constructor , default Constructor,parameterize Constructor,and default Constructor (called polymorphism )
 ```
 c++ :
@@ -102,3 +107,34 @@ c++ :
     DEEP:
         In this we create new memory location and copy the value in that element, in that case new instance is create, so if we change the value at one point other value will not changed.  
 
+****
+
+#### Copy constructor
+```
+Student(const student &srcObj){
+    this->id=srcObj.id;
+    this->name=srcObj.name;
+    this->age=srcObj.age;
+    this->gender=srcObj.gender;
+}
+```
+    Copy constructor are the constructor that invoke while copy one class object to other. This help in doing the deep copy. By default also we make the copy constructor. 
+
+***
+
+####  Destructor
+
+    Destructor is automatically called,but we must make our own destructor when we dynamically allocate the memory to the item.
+    In this way stop from memory leak.
+
+***
+#### Inheritence 
+<span style="color:red">Public</span> : It is access by all the classes ,below it all. 
+
+<span style="color:green">Private</span> : Not shared with anybody,not with drive class till not mention keyword FRIEND.
+
+<span style="color:yellow">Protected</span> : It is accessible by derivative class and class itself
+
+***
+#### Dynamic Polymorfism
+check the notes
