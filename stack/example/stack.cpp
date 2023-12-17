@@ -36,12 +36,9 @@ public:
     {
         int si = size - 1;
         if (top == si)
-        {
             cout << "Stack is already filled " << endl;
-        }
         else
         {
-
             top++;
             arr[top] = data;
         }
@@ -49,14 +46,9 @@ public:
     void pop()
     {
         if (top == -1)
-        {
             cout << "Stack is khaali" << endl;
-        }
         else
-        {
-
             top--;
-        }
     }
 
     bool isEmpty()
@@ -78,11 +70,9 @@ public:
             return -1;
         }
         else
-        {
-
             return arr[top];
-        }
     }
+
     void print()
     {
         cout << "Printing the array " << endl;
