@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ravishankarsingh/CODING/DSA_Practice/Dynamic/LeetCode/279/Perfect'
+relocations:
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: __ZN8Solution5solveEii, symObjAddr: 0x0, symBinAddr: 0x100003C70, symSize: 0xB4 }
+  - { offsetInCU: 0x3206, offset: 0x3206, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xE950, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x3586, offset: 0x3586, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, symObjAddr: 0x1FF, symBinAddr: 0x100003EC7, symSize: 0x0 }
+  - { offsetInCU: 0x35A0, offset: 0x35A0, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedImEE, symObjAddr: 0x200, symBinAddr: 0x100003EC8, symSize: 0x0 }
+  - { offsetInCU: 0x35BA, offset: 0x35BA, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, symObjAddr: 0x201, symBinAddr: 0x100003EC9, symSize: 0x0 }
+  - { offsetInCU: 0x35E3, offset: 0x35E3, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Perfect.cpp, symObjAddr: 0x1CC, symBinAddr: 0x100003E3C, symSize: 0x14 }
+  - { offsetInCU: 0x360C, offset: 0x360C, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x190, symBinAddr: 0x100003E00, symSize: 0x3C }
+  - { offsetInCU: 0x3614, offset: 0x3614, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Perfect.cpp, symObjAddr: 0x1CC, symBinAddr: 0x100003E3C, symSize: 0x14 }
+  - { offsetInCU: 0x3622, offset: 0x3622, size: 0x8, addend: 0x0, symName: __ZSt3minIiERKT_S2_S2_, symObjAddr: 0x158, symBinAddr: 0x100003DC8, symSize: 0x38 }
+  - { offsetInCU: 0x362A, offset: 0x362A, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x190, symBinAddr: 0x100003E00, symSize: 0x3C }
+  - { offsetInCU: 0x366F, offset: 0x366F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xDC, symBinAddr: 0x100003D4C, symSize: 0x7C }
+  - { offsetInCU: 0x3677, offset: 0x3677, size: 0x8, addend: 0x0, symName: __ZSt3minIiERKT_S2_S2_, symObjAddr: 0x158, symBinAddr: 0x100003DC8, symSize: 0x38 }
+  - { offsetInCU: 0x36C5, offset: 0x36C5, size: 0x8, addend: 0x0, symName: __ZN8Solution10numSquaresEi, symObjAddr: 0xB4, symBinAddr: 0x100003D24, symSize: 0x28 }
+  - { offsetInCU: 0x36CD, offset: 0x36CD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xDC, symBinAddr: 0x100003D4C, symSize: 0x7C }
+  - { offsetInCU: 0x3707, offset: 0x3707, size: 0x8, addend: 0x0, symName: __ZN8Solution5solveEii, symObjAddr: 0x0, symBinAddr: 0x100003C70, symSize: 0xB4 }
+  - { offsetInCU: 0x370F, offset: 0x370F, size: 0x8, addend: 0x0, symName: __ZN8Solution10numSquaresEi, symObjAddr: 0xB4, symBinAddr: 0x100003D24, symSize: 0x28 }
+...

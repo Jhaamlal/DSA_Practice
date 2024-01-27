@@ -27,13 +27,9 @@ Node *insertIntoBST(Node *root, int data)
 
 	// its not the first node
 	if (data > root->data)
-	{
 		root->right = insertIntoBST(root->right, data);
-	}
 	else
-	{
 		root->left = insertIntoBST(root->left, data);
-	}
 	return root;
 }
 
